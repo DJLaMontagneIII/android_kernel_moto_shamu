@@ -557,6 +557,13 @@ config HAPTIC_ISA1200
 	help
 	  The ISA1200 is a high performance enhanced haptic driver.
 
+config FSYNC_CONTROL
+        bool "Support for FSync Control"
+        default y
+        help
+          Say Y here to enable FSync Control
+
+
 config QSEECOM
 	tristate "Qualcomm Secure Execution Communicator driver"
 	help
